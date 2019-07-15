@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dragon translator</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="content-block-header">
+            <div class="left-block-header">
+                <i class="fas fa-dragon"></i>
+                <p>dragon</p>
+                <p>translator</p>
+            </div>
+            <div class="right-block-header">
+                <h1>Your translation assistant</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="containe">
+		<div class="content-block">
+			<div class="text-block">
+                <div class="translate-block-container">
+                    <div class="translate-block">
+
+                        <div class="left-block">
+                            <div class="lang-block">
+                                <input type="submit" lang="ru" class="lang lang-rus lang-start lang-start-rus lang-start-active" value="Russian">
+                                <input type="submit" lang="en" class="lang lang-eng lang-start lang-start-eng" value="English">
+                                <input type="submit" lang="de" class="lang lang-deu lang-start lang-start-deu" value="Deutsch">
+                                <i class="fas fas-open-start fa-sort-down"></i>
+                            </div>
+                            <textarea class="start-translate translate" placeholder="Your text"></textarea>
+                        </div>
+                        <div class="right-block">
+                            <div class="lang-block">
+                                <input type="submit" lang="ru" class="lang lang-rus lang-finish lang-finish-rus lang-finish-active" value="Russian">
+                                <input type="submit" lang="en" class="lang lang-eng lang-finish lang-finish-eng" value="English">
+                                <input type="submit" lang="de" class="lang lang-deu lang-finish lang-finish-deu" value="Deutsch">
+                                <i class="fas fas-finish fa-sort-down"></i>
+                            </div>
+                            <textarea class="finish-translate translate" disabled placeholder="Your translator"></textarea>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-translate"><i class="fas fa-dragon"></i></a>
+                </div>
+			</div>
+		</div>
+
+	</div>
+    <div class="modal-block-start">
+        <i class="fas fa-times"></i>
+        <div class="container">
+            <div class="modal-block-content">
+                <input type="submit" lang="ru" class="lang lang-rus lang-start lang-start-rus lang-start-active" value="Russian">
+                <input type="submit" lang="en" class="lang lang-eng lang-start lang-start-eng" value="English">
+                <input type="submit" lang="de" class="lang lang-deu lang-start lang-start-deu" value="Deutsch">
+
+                <input type="submit" lang="az" class="lang lang-azer lang-start lang-start-azer" value="Azerbaijani">
+                <input type="submit" lang="sq" class="lang lang-alb lang-start lang-start-alb" value="Albanian">
+                <input type="submit" lang="be" class="lang lang-bel lang-start lang-start-bel" value="Belorussian">
+
+                <input type="submit" lang="bg" class="lang lang-bul lang-start lang-start-bul" value="Bulgarian">
+                <input type="submit" lang="ka" class="lang lang-geo lang-start lang-start-geo" value="Georgian">
+                <input type="submit" lang="it" class="lang lang-it lang-start lang-start-it" value="Italian">
+
+                <input type="submit" lang="es" class="lang lang-span lang-start lang-start-span" value="Spanish">
+                <input type="submit" lang="kk" class="lang lang-kaz lang-start lang-start-kaz" value="Kazakh">
+                <input type="submit" lang="zh" class="lang lang-chin lang-start lang-start-chin" value="Chinese">
+
+                <input type="submit" lang="ko" class="lang lang-kor lang-start lang-start-kor" value="Korean">
+                <input type="submit" lang="la" class="lang lang-lat lang-start lang-start-lat" value="Latin">
+                <input type="submit" lang="no" class="lang lang-nor lang-start lang-start-nor" value="Norwegian">
+
+                <input type="submit" lang="pl" class="lang lang-pol lang-start lang-start-pol" value="Polish">
+                <input type="submit" lang="pt" class="lang lang-port lang-start lang-start-port" value="Portuguese">
+                <input type="submit" lang="sr" class="lang lang-serb lang-start lang-start-serb" value="Serbian">
+            </div>
+        </div>
+    </div>
+    <div class="modal-block-finish">
+        <i class="fas fa-times fa-times-finish"></i>
+        <div class="container">
+            <div class="modal-block-content">
+                <input type="submit" lang="ru" class="lang lang-rus lang-finish lang-finish-rus lang-finish-active" value="Russian">
+                <input type="submit" lang="en" class="lang lang-eng lang-finish lang-finish-eng" value="English">
+                <input type="submit" lang="de" class="lang lang-deu lang-finish lang-finish-deu" value="Deutsch">
+
+                <input type="submit" lang="az" class="lang lang-azer lang-finish lang-finish-azer" value="Azerbaijani">
+                <input type="submit" lang="sq" class="lang lang-alb lang-finish lang-finish-alb" value="Albanian">
+                <input type="submit" lang="be" class="lang lang-bel lang-finish lang-finish-bel" value="Belorussian">
+
+                <input type="submit" lang="bg" class="lang lang-bul lang-finish lang-finish-bul" value="Bulgarian">
+                <input type="submit" lang="ka" class="lang lang-geo lang-finish lang-finish-geo" value="Georgian">
+                <input type="submit" lang="it" class="lang lang-it lang-finish lang-finish-it" value="Italian">
+
+                <input type="submit" lang="es" class="lang lang-span lang-finish lang-finish-span" value="Spanish">
+                <input type="submit" lang="kk" class="lang lang-kaz lang-finish lang-finish-kaz" value="Kazakh">
+                <input type="submit" lang="zh" class="lang lang-chin lang-finish lang-finish-chin" value="Chinese">
+
+                <input type="submit" lang="ko" class="lang lang-kor lang-finish lang-finish-kor" value="Korean">
+                <input type="submit" lang="la" class="lang lang-lat lang-finish lang-finish-lat" value="Latin">
+                <input type="submit" lang="no" class="lang lang-nor lang-finish lang-finish-nor" value="Norwegian">
+
+                <input type="submit" lang="pl" class="lang lang-pol lang-finish lang-finish-pol" value="Polish">
+                <input type="submit" lang="pt" class="lang lang-port lang-finish lang-finish-port" value="Portuguese">
+                <input type="submit" lang="sr" class="lang lang-serb lang-finish lang-finish-serb" value="Serbian">
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
